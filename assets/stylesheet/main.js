@@ -65,7 +65,7 @@ function game(e) {
 			second.classList.remove("wrong");
 			first = 0;
 			second = 0;
-		}setTimeout(removeClass, 1000);
+		}setTimeout(removeClass, 700);
 	}	
 	setTimeout(hide, 2000);
 }
