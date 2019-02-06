@@ -34,7 +34,6 @@ var min = 0;
 // main game function
 // ==============================================================
 function game(e) {
-	// console.log(e);
  	if (e.target.classList.contains("card")) {
 		if(count == 0) {
 			first = e.target;
@@ -82,7 +81,3 @@ function gameTimer(){
 	p.innerText = `${move}moves ${min} min ${timer}sec`;
 }
 setInterval(gameTimer, 1000);
-
-
-
-
